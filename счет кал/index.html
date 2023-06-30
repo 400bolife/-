@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <link rel="preload" href="fonts/pt-sans-caption-bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/pt-sans-caption-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/resets.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Счётчик калорий</title>
+</head>
+<body class="page">
+  <main class="main">
+    
+    <article class="article">
+        <h1>
+             Счётчик калорий 
+        </h1>
+
+        <div class="article-inner">
+            <form class="" name="counter" action="#" method="post">
+        
+                <h2>
+                    Пол
+                </h2>
+
+                <!-- <ul class="article-gender">
+                    <li class="gender">
+                        <input placeholder="Мужчина" type="radio" name="gender">
+                        <label class="label-inp-gender">
+                            Мужчина
+                        </label>
+                    </li>
+                    <li class="gender">
+                        <label>
+                        <input type="radio" name="gender">
+                            Женщина
+                        </label>
+                    </li>
+                </ul> -->
+                
+                <div class="toggle-buttons">
+                    <button class="toggle-button active btn-toggle" data-value="option1">Мужчина</button>
+
+                    <button class="toggle-button btn-toggle" data-value="option2">Женщина</button>
+
+                </div>
+                
+                <fieldset class="fieldset">
+                    
+                    <div>
+                        <div class="fieldset-cell">
+                            <label class="fieldset-name">Возраст</label>
+                        <span>лет</span>
+                        </div>
+
+                        <input class="inp-text" type="text" placeholder="0">
+                    </div>
+
+
+                    <div>
+                        <div class="fieldset-cell">
+                            <label class="fieldset-name">Рост</label>
+                        <span>см</span>
+                        </div>
+                        
+                        <input class="inp-text" type="text" placeholder="0">
+                    </div>
+
+                    <div>
+                        <div class="fieldset-cell">
+                            <label class="fieldset-name">Вес</label>
+                        <span>кг</span>
+                        </div>
+                        
+                        <input class="inp-text" type="text" placeholder="0">
+                    </div>
+                </fieldset>
+
+
+                <fieldset class="fieldset-down">
+                <legend  class="legend-fis">
+                    Физическая активность
+                </legend>
+
+                <ul >
+
+                    <li>
+                    <div class="fieldset-down-box">
+                        <input type="radio">
+
+                        <div class="label-down">
+                            <label>
+                                Минимальная
+                            </label>
+                        <p>
+                                Сидячая работа и нет физических нагрузок
+                            </p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li>
+                        <div class="fieldset-down-box">
+                            <input type="radio">
+    
+                            <div class="label-down">
+                                <label>
+                                    Низкая
+                                </label>
+                                <p>
+                                Редкие, нерегулярные тренировки, активность в быту 
+                                </p>
+                            </div>
+                        </div>
+                        </li>
+
+                        <li>
+                            <div class="fieldset-down-box">
+                                <input type="radio">
+        
+                                <div class="label-down">
+                                    <label>
+                                          Средняя
+                                    </label>
+                                    <p>
+                                        Тренировки 3-5 раз в неделю
+                                    </p>
+                                </div>
+                            </div>
+                            </li>
+
+                            <li>
+                                <div class="fieldset-down-box">
+                                    <input type="radio">
+            
+                                    <div class="label-down">
+                                        <label>
+                                            Высокая
+                                        </label>
+                                    <p>
+                                        Тренировки 6-7 раз в неделю
+                                        </p>
+                                    </div>
+                                </div>
+                                </li>
+
+                            <li>
+                                <div class="fieldset-down-box">
+                                    <input type="radio">
+                
+                                    <div class="label-down">
+                                        <label>
+                                            Очень высокая
+                                        </label>
+                                    <p>
+                                        Больше 6 тренировок в неделю и физическая работа                                                  </p>
+                                    </div>
+                                </div>
+                            </li>
+
+                </ul>
+                </fieldset>
+        
+                <button class="submit btn" name="submit" type="submit">
+                    Рассчитать
+                </button>
+                <button class= "reset btn" name="reset" type="reset" disabled>
+                    <span>
+                        Очистить поля и расчёт
+                    </span>
+                </button>
+            </form>
+        
+            <!-- <section>
+                <h2>
+                    Ваша норма калорий
+                </h2>
+                <ul >
+                    <li>
+                        <h3>
+                        <span class="normal_cal">3 800</span> ккал
+                        </h3>
+                        <p>
+                            поддержание веса
+                        </p>
+                    </li>
+                    <li>
+                        <h3>
+                        <span>3 300</span> ккал
+                        </h3>
+                        <p>
+                            снижение веса
+                        </p>
+                    </li>
+                    <li>
+                        <h3>
+                        <span>4 000</span> ккал
+                        </h3>
+                        <p>
+                            набор веса
+                        </p>
+                    </li>
+                </ul>
+            </section> -->
+            </article>
+            
+        </div>
+
+
+
+  </main>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
